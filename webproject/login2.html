@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="Gaju/style23.css">
+</head>
+<body>
+<section class="login">
+   <div class="form-container">
+  <h2> Login Here</h2>
+  <form class="modal-content animate" action="loginadmin.php" method="POST">
+
+    <div class="container">
+    <label for="Admin"name="Admin">Admin</label>
+    <a href="loginadmin.php">
+
+      <input type="radio"name="Admin"value="Admin"></a>
+       
+       
+        <p style="color:red"><?php //echo $errors['login']; ?></p>
+      <div class="form_control">
+       <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required maxlength="50">
+     </div>
+     <div class="form_control">
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="password" required max="15">
+     </div>
+      <button type="submit" class="btn lg-in" name="submit">Login</button>
+     <div class="rememberMe">
+      <label for="rememberMe">Remember me</label>
+      <input type="checkbox" checked="checked" name="remember"> 
+     <div class="forgot">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+     </div>
+
+     
+     </div>
+    </div>
+    <div>
+
+</div>
+  </form>
+   
+</div>
+ </section>
+</body>
+</html>
+
+
+
+
+
+
+<label for="owner"name="owner">Owner</label>
+<input type="radio"name="Admin"value="owner">

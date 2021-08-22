@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Creating Fixed Header and Footer with CSS</title>
+<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+ <nav>
+   <div class="log">
+       <h1>GN's houses for rent</h1>
+   </div>
+   <div class="menu-items">
+       <ul>
+           <li><a href="home.html">Home</a></li>
+           <li> <a href="about.html" >About</a></li>
+           <li><a href="contact.html">Contact Us</a></li>
+           <li><a href="signup.html">signup</a></li>
+           <li> <a href="login.html">login </a></li>
+       </ul>
+   </div>
+ </nav>
+
+
+<section class="hero_section" id="hero_section">
+    <div class="w3-content">
+        <img class="mySlides" src="./images/house.jpg" >
+        <img class="mySlides" src="./images/h1.jpg" >
+        <img class="mySlides" src="./images/h2.jpg" >
+        <img class="mySlides" src="./images/house3.jpg" >
+        <img class="mySlides" src="./images/house4.jpg" >
+        <img class="mySlides" src="./images/house5.jpg" >
+        <img class="mySlides" src="./images/house6.jpg" >
+        <img class="mySlides" src="./images/house7.jpg" >
+        <img class="mySlides" src="./images/house8.jpg" >
+        <img class="mySlides" src="./images/h9.jpg" >
+        <img class="mySlides" src="./images/h10.jpg" >
+      </div>
+</section>
+
+<section class="about" id="about">
+
+    <h1 class="about_title">About Us</h1>
+<p class="about_us">
+   GN's houses for rent is a real estates company that rents houses at affordable prices in Rwanda!!
+</p>
+
+</section>
+
+<section class="Contact" id="contact">
+    <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>US</span>
+                </div>
+                <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
+              </div>
+              <div class="screen-body-item">
+                <div class="app-form">
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="NAME" value="Krisantus Wanandi">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="EMAIL">
+                  </div>
+                  <div class="app-form-group">
+                    <input class="app-form-control" placeholder="CONTACT NO">
+                  </div>
+                  <div class="app-form-group message">
+                    <input class="app-form-control" placeholder="MESSAGE">
+                  </div>
+                  <div class="app-form-group buttons">
+                    <button class="app-form-button">CANCEL</button>
+                    <button class="app-form-button">SEND</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+      
+</section>
+<footer>
+    <p class="footer-content">Copyright &copy; 2021 </p>        
+</footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="./css/style.css">
+<title>Login Page</title>
+</head>
+<body>
+  <nav>
+    <div class="log">
+        <h1>GN's houses for rent</h1>
+    </div>
+    <div class="menu-items">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li> <a href="about.html" >About</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="signup.html">signup</a></li>
+            <li> <a href="login.html">login </a></li>
+        </ul>
+    </div>
+  </nav>
+ <section class="login">
+   <div class="form-container">
+  <h2> Login Here</h2>
+  <form class="modal-content animate" action="/action_page.php" method="post">
+
+    <div class="container">
+      <div class="form_control">
+       <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required maxlength="50">
+     </div>
+     <div class="form_control">
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required max="15">
+     </div>
+      <button type="submit" class="btn lg-in">Login</button>
+     <div class="rememberMe">
+      <label for="rememberMe">Remember me</label>
+      <input type="checkbox" checked="checked" name="remember"> 
+     <div class="forgot">
+      <span class="psw">Forgot <a href="#">password?</a></span>
+     </div>
+     </div>
+    </div>
+    <div>
+
+</div>
+  </form>
+   
+</div>
+ </section>
+
+<footer>
+  <p class="footer-content">Copyright &copy; 2021 </p>        
+</footer>
+</body>
+</html>

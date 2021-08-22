@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\Web_Project/responsive_nav.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\Web_Project/contact_page.css">
+</head>
+
+<body>
+<nav>
+  <input type="checkbox" id="check">
+
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+
+  <label class="logo">GN's houses for rent</label>
+
+  <ul>
+    <li><a href="home.php">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href=contact_page.html>Contacts</a></li>
+    <li><a href="signup.php">signup</a></li>
+    <li><a href="login.php">login</a></li>
+    <li><a href="for rent.php">for rent</a></li>
+  </ul>
+
+</nav>
+<div class="container">
+  <form action="#">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Rwanda">Rwanda</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+</body>
+</html>
